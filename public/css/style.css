@@ -1,0 +1,39 @@
+* {
+  font-family: "Overpass";
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1000px;
+}
+
+p,
+h1 {
+  color: white;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #252D37;
+  flex-direction: column;
+  width: 50%;
+}
+.container__main-text {
+  text-align: left;
+  padding-left: 20px;
+}
+.container__numbers-all {
+  display: flex;
+}
+.container__button {
+  margin-bottom: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */

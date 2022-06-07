@@ -1,0 +1,20 @@
+{
+  "name": "fem_interactive-rating-component",
+  "version": "1.0.0",
+  "description": "![Design preview for the Interactive rating component coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch ./sass/main.scss:.public/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nozgood/fem_interactive-rating-component.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nozgood/fem_interactive-rating-component/issues"
+  },
+  "homepage": "https://github.com/Nozgood/fem_interactive-rating-component#readme"
+}
