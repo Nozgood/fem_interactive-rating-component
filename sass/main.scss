@@ -1,43 +1,4 @@
 @import './base/typography';
 @import './utils/variables';
-
-body {
-    margin: 0;
-    padding: 0;
-    background-color: black;  
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 1000px;
-
-}
-
-p,
-h1 {
-    color: white;
-}
-
-.container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: $secondary-color;
-    flex-direction: column;
-    width: 50%;
-
-
-    &__main {
-        &-text {
-            text-align: left;
-            padding-left: 20px;
-        }
-    }
-    &__numbers {
-        &-all {
-            display: flex;
-        }
-    }
-    &__button {
-        margin-bottom: 20px;
-    }
-}
+@import './pages/home';
+@import './pages/thanks';

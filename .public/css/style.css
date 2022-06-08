@@ -1,0 +1,140 @@
+* {
+  font-family: "Overpass";
+}
+
+h1 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+}
+
+p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+}
+
+input {
+  cursor: pointer;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background: linear-gradient(to bottom left, #121417, 60%, #252D37);
+  border-radius: 20px;
+  padding: 30px;
+}
+.container__icon {
+  width: 18px;
+  height: 18px;
+  border-radius: 40px;
+  padding: 12px;
+  background-color: #252D37;
+  margin-bottom: 15px;
+  opacity: 0.8;
+}
+.container__icon:hover {
+  opacity: 1;
+  transition: 500ms ease-out;
+}
+.container__main-title {
+  color: white;
+  font-weight: 700;
+  font-size: 25px;
+  letter-spacing: 0.5px;
+}
+.container__main-text {
+  color: #959EAC;
+  font-size: 15px;
+}
+.container__form {
+  display: flex;
+  flex-direction: column;
+}
+.container__form-numbers--all {
+  display: flex;
+  justify-content: space-between;
+  color: #959EAC;
+  margin-bottom: 20px;
+}
+.container__form-numbers--1, .container__form-numbers--2, .container__form-numbers--3, .container__form-numbers--4, .container__form-numbers--5 {
+  background-color: #252D37;
+  font-size: 15px;
+  border: none;
+  color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 30px;
+}
+.container__form-numbers--1:hover, .container__form-numbers--2:hover, .container__form-numbers--3:hover, .container__form-numbers--4:hover, .container__form-numbers--5:hover {
+  background: #121417;
+  color: white;
+  transition: all 500ms ease-in-out;
+}
+.container__form-numbers--1:focus-visible, .container__form-numbers--2:focus-visible, .container__form-numbers--3:focus-visible, .container__form-numbers--4:focus-visible, .container__form-numbers--5:focus-visible {
+  background: #121417;
+  outline-color: #FB7413;
+  outline-style: solid;
+  outline-width: 2px;
+  transition: outline 500ms ease-out;
+}
+.container__form-button {
+  background: #FB7413;
+  color: white;
+  border-radius: 20px;
+  height: 40px;
+  border-width: 0;
+  font-weight: 700;
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container__form-button:hover {
+  color: #FB7413;
+  background: #121417;
+  transition: all 300ms ease-out;
+}
+
+@media all and (min-width: 300px) and (max-width: 500px) {
+  .container {
+    width: 300px;
+    height: auto;
+    margin: 20px;
+    padding: 20px;
+  }
+  .container__icon {
+    width: 15px;
+    height: 15px;
+  }
+  .container__main-text {
+    margin: 10px 0 15px 0;
+  }
+  .container__numbers-all {
+    margin-bottom: 20px;
+  }
+}
+@media all and (min-width: 501px) {
+  .container {
+    width: 350px;
+    height: 350px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
