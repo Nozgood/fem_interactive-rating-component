@@ -13,7 +13,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    background: linear-gradient(to bottom left, $background-color, 60%, $background-color-secondary);
+    background: linear-gradient(to top, $background-color, 60%, $background-color-secondary);
     border-radius: 20px;
     padding: 30px;
 
@@ -37,13 +37,13 @@ body {
         &-title {
             color: white;
             font-weight: 700;
-            font-size: 25px;
             letter-spacing: 0.5px;
         }
 
         &-text {
             color: $text-color;
             font-size: 15px;
+            line-height: 1.6;
         }
     }
 
@@ -68,7 +68,7 @@ body {
                 background-color: $icon-background;
                 font-size: 15px;
                 border: none;
-                color: white;
+                color: $text-color;
                 width: 40px;
                 height: 40px;
                 border-radius: 30px;
@@ -112,8 +112,6 @@ body {
 @media all and (min-width: 300px) and (max-width: 500px) {
 
     .container {
-        width: 300px;
-        height: auto;
         margin: 20px;
         padding: 20px;
 
@@ -138,9 +136,18 @@ body {
 }
 
 @media all and (min-width: 501px) {
-
     .container {
         width: 350px;
         height: 350px;
+    }
+}
+
+@media all and (min-width: 500px) and (max-width: 553px) {
+    .container {
+        &__main {
+            &-text {
+                
+            }
+        }
     }
 }

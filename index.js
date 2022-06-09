@@ -14,7 +14,7 @@ allInputs.forEach((a) => {
     })
 });
 
-button.addEventListener('click', function() {
+button.addEventListener('click', function(event) { 
     event.preventDefault();
     window.open('thanks.html' + '?value=' + trueValue);
 })
